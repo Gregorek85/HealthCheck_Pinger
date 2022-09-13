@@ -21,4 +21,4 @@ def your_function():
     your_code
 ```
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/Gregorek85/HealthCheck_Pinger/blob/main/LICENSE)
