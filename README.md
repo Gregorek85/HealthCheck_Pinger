@@ -1,6 +1,12 @@
 # HealthCheck_Pinger
 
 HealthCheck_Pinger is a small and simple Python package that contains class and decorator to easily ping HealthCheck (https://healthchecks.io/) server.
+
+## Installation
+```bash
+pip install healthcheck-pinger
+```
+## How to use
 Use it like this:
 ```python
 from HealthCheck_Pinger import PingHC
