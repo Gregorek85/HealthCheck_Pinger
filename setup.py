@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="HealthCheck_Pinger",
-    version="0.0.4",
+    version="0.0.5",
     author="Gregorek85",
     author_email="grerad@gmail.com",
     description="easily ping HealthCheck server",
