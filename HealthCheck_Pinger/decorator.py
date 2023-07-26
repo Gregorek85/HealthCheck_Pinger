@@ -11,10 +11,11 @@ def pingDecor(uuid, server=None):
             else:
                 ping = PingHC(uuid)
             try:
-                function(*args, **kwargs)
+                result =function(*args, **kwargs)
             except:
                 ping.failure
-            else:
-                ping.success
+                return False
+            ping.success
+            return result
         return wrapper
     return inner_function
