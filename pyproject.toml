@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "healthcheck_pinger"
-version = "0.0.5"
+version = "0.0.6"
 authors = [{ name = "Gregorek85", email = "grerad@gmail.com" }]
 description = "easily ping HealthCheck server"
 readme = "README.md"
